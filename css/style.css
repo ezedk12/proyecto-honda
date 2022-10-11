@@ -130,21 +130,28 @@ footer{
 
     background-color: black;
     width: 100%;
-    height: 600px;
+    height: 700px;
 
     
 }
 
 .texto1 {
-
+    
     color: white
 }
 
 .tituloprin {
-
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
     color: white;
 }
 
+.tituloprin h1{
+
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 .color-body {
 
     background-color: rgb(0, 0, 0);
@@ -156,6 +163,7 @@ footer{
     display: flex;
     justify-content: center;
     font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .buscador-nuevo {
@@ -300,3 +308,18 @@ height: 462px;
     align-content: center;
     flex-direction: column;
 }
+
+.motocicletas-contenedor{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.titulo-motos{
+
+    color: white;
+}
+

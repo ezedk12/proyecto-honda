@@ -10,6 +10,8 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
+background: rgb(124,156,157);
+background: linear-gradient(0deg, rgba(124,156,157,1) 0%, rgba(255,255,255,1) 54%);
 
 
 }
@@ -46,7 +48,7 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 width: 100%;
-height: 760px;
+height: 777px;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -130,7 +132,7 @@ footer{
 
     background-color: black;
     width: 100%;
-    height: 700px;
+    height: 775px;
 
     
 }
@@ -235,7 +237,7 @@ footer{
 
 .li-nuevo a{
 
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .tamanio-main{
@@ -278,6 +280,7 @@ height: 462px;
 .img-clasicos{
     width: 250px;
     height: 120px;
+    border-radius: 10px;
     
 
 
@@ -363,3 +366,38 @@ height: 462px;
     bottom: 11px;
 }
 
+.img-motos1{
+    border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+
+    .grid-container{
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (4, 1fr);
+        grid-template-areas: 
+        "header"
+        "main"
+        "main"
+        "footer"
+        ;
+    }
+    .tituloprin h1{
+        font-size: 30px;
+    }
+    .img-motos1{
+
+        width: 200px;
+        height: 100px;
+    }
+
+    .titulo-motos{
+        font-size: 15px;
+    }
+
+    .texto1{
+
+        font-size: 15px;
+    }
+}

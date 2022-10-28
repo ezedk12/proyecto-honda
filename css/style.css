@@ -432,6 +432,21 @@ footer{
         font-size: 13px;
     }
 
+    .img-clasicos{
+        width: 280px;
+        height: 230px;
+    }
+
+    .contenedor-clasicos{
+        gap: 100px;
+    }
+
+    .texto-nuevo{
+
+        font-size: 30px;
+    }
+
+    
 
 
 }
@@ -466,4 +481,27 @@ footer{
 
         font-size: 13px;
     }
+    
+    .img-clasicos{
+        width: 280px;
+        height: 230px;
+}
+
+.texto-nuevo{
+
+    font-size: 20px;
+}
+
+.menu-navegacion-contenedor{
+
+    flex-direction: column;
+}
+
+.frase-main{
+
+    display: none;
+}
+
+
+
 }

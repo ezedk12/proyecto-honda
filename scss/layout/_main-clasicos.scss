@@ -1,0 +1,37 @@
+.contenedor-clasicos {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 250px;
+  }
+  
+  .titulo-clasicos {
+    font-size: 50px;
+  }
+  
+  .clasicos-main {
+    width: 100%;
+    height: 760px;
+  }
+  
+  .img-clasicos {
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+  }
+  
+  .contenedor-imagenes {
+    @include props-flex (row,space-evenly,center);
+  }
+  
+  .contenedor-imagenes-clasicos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .contenedor-imagenes-tuning {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }

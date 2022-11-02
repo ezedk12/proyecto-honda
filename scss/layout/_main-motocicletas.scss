@@ -1,0 +1,26 @@
+.tituloprin {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+  
+    h1 {
+      font-size: 50px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+  .motocicletas-contenedor {
+    @include props-flex (row,space-evenly,center);
+  }
+  
+  .titulo-motos {
+    color: white;
+  }
+  .card-motos {
+    padding: 20px;
+    margin: 1px;
+    border-radius: 25px;
+  }
+  .img-motos1 {
+    border-radius: 10px;
+  }

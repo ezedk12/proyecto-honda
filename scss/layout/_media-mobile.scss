@@ -1,0 +1,54 @@
+@media (max-width: 576px) {
+
+    .grid-container{ 
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (4, 1fr);
+        grid-template-areas: 
+        "header"
+        "main"
+        "main"
+        "footer"
+        ;
+    }
+    .tituloprin h1{
+        font-size: 30px;
+    }
+    .img-motos1{
+
+        width: 200px;
+        height: 100px;
+    }
+
+    .titulo-motos{
+        font-size: 15px;
+    }
+
+    .texto1{
+
+        font-size: 13px;
+    }
+    
+    .img-clasicos{
+        width: 280px;
+        height: 230px;
+}
+
+.texto-nuevo{
+
+    font-size: 20px;
+}
+
+.menu-navegacion-contenedor{
+
+    flex-direction: column;
+}
+
+.frase-main{
+
+    display: none;
+}
+
+
+
+}

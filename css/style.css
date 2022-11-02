@@ -1,507 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+.menu-navegacion-contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #7c9c9d;
+  background: linear-gradient(0deg, #7c9c9d 0%, white 54%); }
 
-.menu-navegacion-contenedor{
-
-display: flex;
-justify-content: space-between;
-align-items: center;
-background: rgb(124,156,157);
-background: linear-gradient(0deg, rgba(124,156,157,1) 0%, rgba(255,255,255,1) 54%);
-
-
-}
-
-.logo{
-
-    height: 70px;
-    padding: 20px;
-    
-}
-
-.logo img{
-
+.logo {
+  height: 70px;
+  padding: 20px; }
+  .logo img {
     display: block;
-    height: 100%;
-}
+    height: 100%; }
 
-.enlaces li{
-    list-style: none;
-    display: inline-block;
-}
-.enlaces a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    padding: 10px;
-    transform-style: preserve-3d;
+.enlaces li {
+  list-style: none;
+  display: inline-block; }
 
-}
+.enlaces a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  transform-style: preserve-3d; }
 
-.enlaces{
-    
-        -webkit-animation: enlaces 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-                animation: enlaces 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    
-}
+.enlaces {
+  -webkit-animation: enlaces 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: enlaces 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
 
- @-webkit-keyframes enlaces {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-  }
-  @keyframes enlaces {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-  }
-  
+@-webkit-keyframes enlaces {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
 
-
-
-
+@keyframes enlaces {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
 
 .fondo-main {
+  background-image: url(../img/fondoauto.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 777px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-position-y: -300px;
+  grid-area: main; }
 
-background-image: url(../img/fondoauto.jpg);
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-width: 100%;
-height: 777px;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-background-position-y: -300px;
-grid-area: main;
+.frase-main {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  padding-left: 450px;
+  padding-bottom: 400px;
+  color: #fbff00; }
 
+.contenedor {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px; }
 
+.derechos {
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end; }
 
-}
-
-.frase-main{
-
-    display: flex;
-    justify-content: center;
-    font-size: 80px;
-    padding-left: 450px;
-    padding-bottom: 400px;
-    color: rgb(251, 255, 0)
-    
-    
-}
-
-.nav-bar{
-
-    display: flex;
-    flex-direction: row;
-    
-    
-    
-    
-    
-}
-
-.nav-color{
-
-    color: black;
-    font-size: 40px;
-    padding: 10px;
-    
-    
-    
-}
-
-
-header{
-    grid-area: header;
-
-}
-
-main {
-
-    grid-area: main;
-}
-
-footer{
-    grid-area: footer;
-    background-color: black;
-}
-
+.contenedor h2 {
+  color: white; }
 
 .imagenes-abajo {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  gap: 50px; }
 
-    display: flex;
-    justify-content: end;
-    padding: 20px;
-    
-    
-    gap: 50px;
-    
-    
-}
-
-
-.buscador-container{
-
-    padding: 0 40px;
-}
+.buscador-container {
+  padding: 0 40px; }
 
 .color-fondo {
-
-    background-color: black;
-    width: 100%;
-    height: 775px;
-
-    
-}
+  background-color: black;
+  width: 100%;
+  height: 775px; }
 
 .texto1 {
-    
-    color: white
-}
+  color: white; }
 
-.tituloprin {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    color: white;
-}
+footer {
+  grid-area: footer;
+  background-color: black; }
 
-.tituloprin h1{
-
-    font-size: 50px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-.color-body {
-
-    background-color: rgb(0, 0, 0);
-}
-
-.texto-nuevo {
-
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.buscador-nuevo {
-
-    color: white;
-}
-
-.enviar-cont {
-
-    color: black;
-}
-
-.grid-container {
-    width: 100%;
-    height: 100vh;
-
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
-    "header header header header header"
-    "main main main main main"
-    "main main main main main"
-    "footer footer footer footer footer"
-    ;
-
-
-
-}
-
-
-
-.card-motos{
-
-    padding: 20px;
-    margin: 1px;
-    border-radius: 25px;
-    
-}
-
-.img-ubi{
-
-    font-size: 20px;
-}
-
-.contenedor{
-
-    display: flex;
-    align-items: flex-end;
-    gap: 20px;
-    
-    
-
-}
-
-.derechos{
-
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
-}
-
-.contenedor h2{
-
-    color: white;
-}
-
-.li-nuevo a{
-
-    color: rgb(0, 0, 0);
-}
-
-.tamanio-main{
-
-    width: 100%;
-    height: 760px;
-
-
-}
-
-.color-header{
-
-    background-color: black;
-}
-
-.contenedor-clasicos{
-
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 250px;
-
-
-    
-    
-
-
-}
+.contenedor-clasicos {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 250px; }
 
 .titulo-clasicos {
+  font-size: 50px; }
 
+.clasicos-main {
+  width: 100%;
+  height: 760px; }
+
+.img-clasicos {
+  width: 250px;
+  height: 120px;
+  border-radius: 10px; }
+
+.contenedor-imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center; }
+
+.contenedor-imagenes-clasicos {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }
+
+.contenedor-imagenes-tuning {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }
+
+.tituloprin {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: white; }
+  .tituloprin h1 {
     font-size: 50px;
-    
-}
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
 
-.clasicos-main{
-    width: 100%;
-    height: 760px;
-}
+.motocicletas-contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center; }
 
-.img-clasicos{
-    width: 250px;
-    height: 120px;
-    border-radius: 10px;
-    
+.titulo-motos {
+  color: white; }
 
+.card-motos {
+  padding: 20px;
+  margin: 1px;
+  border-radius: 25px; }
 
-}
+.img-motos1 {
+  border-radius: 10px; }
 
-.contenedor-imagenes{
+.tamanio-main {
+  width: 100%;
+  height: 760px; }
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
-}
+.texto-nuevo {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
-.contenedor-imagenes-clasicos{
+.tamanio-main {
+  width: 100%;
+  height: 760px;
+  background-color: white; }
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    
-    
-}
+.contenedor-form {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  padding: 30px; }
 
-.contenedor-imagenes-tuning{
+.titulo-contacto {
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 20px; }
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
+.form-field {
+  position: relative;
+  margin: 32px 0; }
 
-.motocicletas-contenedor{
+.input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  font-size: 18px;
+  border-color: red;
+  border-width: 0 0 2px 0;
+  line-height: 26px;
+  font-weight: 400;
+  outline: none; }
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
-}
+.label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px; }
 
+.img-motos1 {
+  border-radius: 10px; }
 
-.titulo-motos{
+.grid-container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "header header header header header" "main main main main main" "main main main main main" "footer footer footer footer footer"; }
 
-    color: white;
-}
+header {
+  grid-area: header; }
 
-.contenedor-form{
-    max-width: 800px;
-    margin: 50px auto;
-    position: relative;
-    padding: 30px;
-}
+main {
+  grid-area: main; }
 
-.titulo-contacto{
-    text-align: center;
-    font-size: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 20px;
-}
+footer {
+  grid-area: footer;
+  background-color: black; }
 
-.form-field{
-    position: relative;
-    margin: 32px 0;
-    
-    
-}
-
-.input-text{
-    display: block;
-    width: 100%;
-    height: 36px;
-    font-size: 18px;
-    border-color: rgb(255, 0, 0);
-    border-width: 0 0 2px 0;
-    line-height: 26px;
-    font-weight: 400;
-    outline: none;
-
-}
-
-.label{
-    position: absolute;
-    left: 20px;
-    bottom: 11px;
-}
-
-.img-motos1{
-    border-radius: 10px;
-}
 @media (max-width: 768px) {
-    .grid-container{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(5 ,1fr);
-        grid-template-areas: 
-        "header header header"
-        "main main main"
-        "main main main"
-        "main main main"
-        "footer footer footer"
-        ;
-    }
-
-    .tituloprin h1{
-        font-size: 35px;
-    }
-    .img-motos1{
-
-        width: 220px;
-        height: 120px;
-    }
-    .titulo-motos{
-        font-size: 18px;
-    }
-    .texto1{
-
-        font-size: 13px;
-    }
-
-    .img-clasicos{
-        width: 280px;
-        height: 230px;
-    }
-
-    .contenedor-clasicos{
-        gap: 100px;
-    }
-
-    .texto-nuevo{
-
-        font-size: 30px;
-    }
-
-    
-
-
-}
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "header header header" "main main main" "main main main" "main main main" "footer footer footer"; }
+  .tituloprin h1 {
+    font-size: 35px; }
+  .img-motos1 {
+    width: 220px;
+    height: 120px; }
+  .titulo-motos {
+    font-size: 18px; }
+  .texto1 {
+    font-size: 13px; }
+  .img-clasicos {
+    width: 280px;
+    height: 230px; }
+  .contenedor-clasicos {
+    gap: 100px; }
+  .texto-nuevo {
+    font-size: 30px; } }
 
 @media (max-width: 576px) {
-
-    .grid-container{ 
-
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat (4, 1fr);
-        grid-template-areas: 
-        "header"
-        "main"
-        "main"
-        "footer"
-        ;
-    }
-    .tituloprin h1{
-        font-size: 30px;
-    }
-    .img-motos1{
-
-        width: 200px;
-        height: 100px;
-    }
-
-    .titulo-motos{
-        font-size: 15px;
-    }
-
-    .texto1{
-
-        font-size: 13px;
-    }
-    
-    .img-clasicos{
-        width: 280px;
-        height: 230px;
-}
-
-.texto-nuevo{
-
-    font-size: 20px;
-}
-
-.menu-navegacion-contenedor{
-
-    flex-direction: column;
-}
-
-.frase-main{
-
-    display: none;
-}
-
-
-
-}
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 4, 1fr;
+    grid-template-areas: "header" "main" "main" "footer"; }
+  .tituloprin h1 {
+    font-size: 30px; }
+  .img-motos1 {
+    width: 200px;
+    height: 100px; }
+  .titulo-motos {
+    font-size: 15px; }
+  .texto1 {
+    font-size: 13px; }
+  .img-clasicos {
+    width: 280px;
+    height: 230px; }
+  .texto-nuevo {
+    font-size: 20px; }
+  .menu-navegacion-contenedor {
+    flex-direction: column; }
+  .frase-main {
+    display: none; } }

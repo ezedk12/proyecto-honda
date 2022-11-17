@@ -11,14 +11,12 @@
     background-position: center;
     background-attachment: fixed;
     background-position-y: -300px;
-    grid-area: main;
+    
     
 }
 .frase-main {
-    display: flex;
-    justify-content: center;
+    text-align: end;
     font-size: 80px;
-    padding-left: 450px;
-    padding-bottom: 400px;
+    
     color: rgb(251, 255, 0);
 }

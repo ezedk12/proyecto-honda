@@ -12,21 +12,21 @@
         ;
     }
     .tituloprin h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .img-motos1{
 
-        width: 200px;
-        height: 100px;
+        width: 120px;
+        height: 60px;
     }
 
     .titulo-motos{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .texto1{
 
-        font-size: 13px;
+        font-size: 9px;
     }
     
     .img-clasicos{
@@ -44,11 +44,14 @@
     flex-direction: column;
 }
 
+.motocicletas-contenedor {
+    flex-direction: column;
+}
+
 .frase-main{
 
     display: none;
 }
 
-
-
 }
+

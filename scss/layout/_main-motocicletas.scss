@@ -8,6 +8,7 @@
       font-size: 50px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
+    
   }
   .motocicletas-contenedor {
     @include props-flex (row,space-evenly,center);
